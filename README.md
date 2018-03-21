@@ -5,7 +5,7 @@
 添加到项目的dependency
 ```Java
 	dependencies {
-	        compile 'com.github.ArdWang:CommonLib:v1.0.2'
+	        compile 'com.github.ArdWang:CommonLib:1.0.2'
 	}
 ```
 
@@ -27,7 +27,7 @@
 	<dependency>
 	    <groupId>com.github.ArdWang</groupId>
 	    <artifactId>CommonLib</artifactId>
-	    <version>v1.0.2</version>
+	    <version>1.0.2</version>
 	</dependency>
 	
 ```
