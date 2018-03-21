@@ -83,7 +83,7 @@
         try {
             String currentDate1 = "yyyy-MM-dd HH:mm:ss";
             Date dd = DateUtil.parseStringToDate(a3);
-            String dateString = DateUtil.getDateToString1(dd,currentDate1);
+            String dateString = DateUtil.getDateToString(dd,currentDate1);
             Log.i(TAG,dateString+"");
         }catch (Exception e){
             e.printStackTrace();
@@ -94,7 +94,7 @@
         try {
             String currentDate1 = "yyyy-MM-dd HH:mm:ss";
             Date dd = DateUtil.parseStringToDate(a3);
-            String dateString = DateUtil.getDateToString(dd,currentDate1);
+            String dateString = DateUtil.getDateToString1(dd,currentDate1);
             Log.i(TAG,dateString+"");
         }catch (Exception e){
             e.printStackTrace();
